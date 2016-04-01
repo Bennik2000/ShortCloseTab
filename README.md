@@ -6,7 +6,7 @@
 
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/0048fb4c-8597-460c-bb34-5247df07bf8d)
 or get the [CI build](http://vsixgallery.com/extension/c9675081-d0b9-4176-ad00-5aebfc7fdec0/).
 
 ---------------------------------------
