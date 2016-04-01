@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="c9675081-d0b9-4176-ad00-5aebfc7fdec0" Version="1.0" Language="en-US" Publisher="Bennik2000" />
+    <Identity Id="c9675081-d0b9-4176-ad00-5aebfc7fdec0" Version="1.1" Language="en-US" Publisher="Bennik2000" />
     <DisplayName>ShortCloseTab</DisplayName>
-    <Description xml:space="preserve">A faster way to close the active document by pressing Ctrl+W twice</Description>
+    <Description xml:space="preserve">A faster way to close the active document by pressing Ctrl+W</Description>
     <License>Resources\LICENSE</License>
     <Icon>Resources\Icon.png</Icon>
     <PreviewImage>Resources\Preview.png</PreviewImage>

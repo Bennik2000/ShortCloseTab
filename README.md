@@ -11,13 +11,13 @@ or get the [CI build](http://vsixgallery.com/extension/c9675081-d0b9-4176-ad00-5
 
 ---------------------------------------
 
-A faster way to close the active document by pressing Ctrl+W twice
+A faster way to close the active document by pressing Ctrl+W
 
 See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 ## Features
 
-- Close the active document by pressing Ctrl+W twice
+- Close the active document by pressing Ctrl+W
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)

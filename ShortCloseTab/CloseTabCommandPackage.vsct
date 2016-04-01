@@ -4,28 +4,27 @@
 
   <Extern href="vsshlids.h"/>
 
+  
+  
   <Commands package="guidCloseTabCommandPackage">
     <Buttons> 
       
-      <Button guid="guidCloseTabCommandPackageCmdSet" id="CloseTabCommandId" priority="0x0100" type="Button">
+      <Button guid="guidCloseTabCommandPackageCmdSet" id="CloseTabCommand" priority="0x0001" type="Button">
+        
         <Strings>
-          <ButtonText>Invoke CloseTabCommand</ButtonText>
+          <LocCanonicalName>closeTab</LocCanonicalName>
+          <ButtonText>CloseTabCommand</ButtonText>
         </Strings>
       </Button>
     </Buttons>
 
   </Commands>
 
-  <KeyBindings>
-    <KeyBinding guid="guidCloseTabCommandPackageCmdSet" id="CloseTabCommandId" editor="guidVSStd97" mod1="Control" mod2="Control" key1="W" key2="W"/>
-  </KeyBindings>
- 
-  
   <Symbols>
     <GuidSymbol name="guidCloseTabCommandPackage" value="{c754622d-e485-4cea-b88f-effbd966f960}" />
 
     <GuidSymbol name="guidCloseTabCommandPackageCmdSet" value="{286f10fc-2b99-49a7-b8f9-04ee335b6bba}">
-      <IDSymbol name="CloseTabCommandId" value="0x0100" />
+      <IDSymbol name="CloseTabCommand" value="0x0100" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>

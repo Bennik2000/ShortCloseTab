@@ -1,7 +1,6 @@
 # Roadmap
 
-- [x] Close the active document by pressing Ctrl+W twice
-- [ ] Close the active document by pressing Ctrl+W once
+- [x] Close the active document by pressing Ctrl+W
 
 Features that have a checkmark are complete and available for
 download in the
@@ -11,6 +10,13 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+
+## 1.1
+
+**2016-04-02**
+
+- [x] Close the active document by pressing Ctrl+W
 
 ## 1.0
 
