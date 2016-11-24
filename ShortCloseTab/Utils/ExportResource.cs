@@ -32,5 +32,12 @@ namespace ShortCloseTab.Utils
                 }
             }
         }
+
+        public static void ReplaceInFile(string path, string search, string replace)
+        {
+            string text = File.ReadAllText(path);
+            text = text.Replace(search, replace);
+            File.WriteAllText(path, text);
+        }
     }
 }

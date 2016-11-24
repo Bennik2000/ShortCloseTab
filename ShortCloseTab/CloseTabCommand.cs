@@ -58,6 +58,15 @@ namespace ShortCloseTab
             var dte = (DTE2)ServiceProvider.GetService(typeof(DTE));
             try
             {
+                // Save the currently loaded scheme name
+                var schemeNameProperty = dte.Properties["Environment", "Keyboard"];
+                var schemeName = schemeNameProperty.Item("SchemeName").Value;
+                
+                // Replace the scheme name in the file
+                ExportResource.ReplaceInFile(path, "%{Scheme}%", schemeName as string);
+
+
+                // Load the settings
                 dte.ExecuteCommand("Tools.ImportandExportSettings", $"/import:\"{path}\"");
             }
             // ReSharper disable once EmptyGeneralCatchClause
